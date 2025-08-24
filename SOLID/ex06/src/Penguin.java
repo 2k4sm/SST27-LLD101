@@ -1,5 +1,11 @@
-public class Penguin extends Bird {
-    @Override void fly(){
-         throw new UnsupportedOperationException("Can't fly"); 
+public class Penguin implements AbstractBird, Swimmer {
+    @Override
+    public void makeSound() {
+        System.out.println("Squawk!");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("Swimming gracefully!");
     }
 }
