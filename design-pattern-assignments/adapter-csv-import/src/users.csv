@@ -1,0 +1,6 @@
+id1,user1@example.com,User One
+id2,user2@example.com,User Two
+id3,invalid-email,User Three
+,user4@example.com,User Four
+id5,,User Five
+id6,user6@example.com,User Six
